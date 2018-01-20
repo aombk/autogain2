@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="moPFKV" name="autogain" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.autogain" includeBinaryInAppConfig="1"
+              cppLanguageStandard="11" companyCopyright="" buildVST="1" buildVST3="0"
+              buildAU="1" buildAUv3="0" buildRTAS="0" buildAAX="0" buildStandalone="1"
+              enableIAA="0" pluginName="autogain" pluginDesc="autogain" pluginManufacturer="yourcompany"
+              pluginManufacturerCode="Manu" pluginCode="Mopf" pluginChannelConfigs=""
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="autogainAU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.autogain"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="5.2.0">
+  <MAINGROUP id="LuwtQm" name="autogain">
+    <GROUP id="{213B3F88-3EAF-BB88-6F8E-1F8C58C20EA0}" name="Source">
+      <FILE id="WL03wF" name="DspComponent.cpp" compile="1" resource="0"
+            file="Source/DspComponent.cpp"/>
+      <FILE id="COlyq2" name="DspComponent.h" compile="0" resource="0" file="Source/DspComponent.h"/>
+      <FILE id="NpL113" name="GuiComponent.cpp" compile="1" resource="0"
+            file="Source/GuiComponent.cpp"/>
+      <FILE id="asudmk" name="GuiComponent.h" compile="0" resource="0" file="Source/GuiComponent.h"/>
+      <FILE id="EJed94" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="GkpTqk" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="xdg5OO" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Z4Tejl" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="0" isDebug="1" optimisation="1" targetName="autogain"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="1" isDebug="0" optimisation="3" targetName="autogain"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="G:/owncloud/compenc/dev/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
